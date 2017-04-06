@@ -5,13 +5,14 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.smartmobe.photoalbummvvm.R;
 import com.smartmobe.photoalbummvvm.databinding.PhotoDetailActivityBinding;
 import com.smartmobe.photoalbummvvm.model.Photo;
+import com.smartmobe.photoalbummvvm.util.ViewUtil;
 import com.smartmobe.photoalbummvvm.viewmodel.PhotoDetailViewModel;
 
 /**
@@ -33,16 +34,11 @@ public class PhotoDetailActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         photoDetailActivityBinding = DataBindingUtil.setContentView(this, R.layout.photo_detail_activity);
-        displayHomeAsUpEnabled();
+        ViewUtil.displayHomeAsUpEnabled(PhotoDetailActivity.this);
         getExtrasFromIntent();
     }
 
-    private void displayHomeAsUpEnabled() {
-        ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true);
-        }
-    }
+
 
     private void getExtrasFromIntent() {
         Photo photo = (Photo) getIntent().getSerializableExtra(EXTRA_PHOTO);
@@ -57,9 +53,23 @@ public class PhotoDetailActivity extends AppCompatActivity {
             case android.R.id.home:
                 finish();
                 break;
+            case R.id.menu_comment:
+                startActivityActionView();
+                break;
         }
         return super.onOptionsItemSelected(item);
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.comment, menu);
+        return true;
+    }
+
+    private void startActivityActionView() {
+        startActivity(
+                new Intent(this, CommentActivity.class));
     }
 
 }

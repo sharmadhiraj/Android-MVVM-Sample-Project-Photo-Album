@@ -23,6 +23,9 @@
 
         <activity android:name=".view.activity.PhotoDetailActivity"/>
 
+        <activity android:name=".view.activity.CommentActivity"
+            android:label="Comments"/>
+
     </application>
 
 </manifest>
