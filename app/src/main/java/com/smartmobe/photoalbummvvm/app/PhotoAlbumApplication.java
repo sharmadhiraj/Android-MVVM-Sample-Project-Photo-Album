@@ -35,5 +35,5 @@ public class PhotoAlbumApplication extends Application {
         if (scheduler == null) scheduler = Schedulers.io();
         return scheduler;
     }
-//added to test git commit
+//added to test git commit updated
 }
