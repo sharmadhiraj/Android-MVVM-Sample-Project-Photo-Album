@@ -22,7 +22,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class PhotoAlbumFactory {
 
-  private final static String BASE_URL = "http://jsonplaceholder.typicode.com/";
+  private final static String BASE_URL = "https://jsonplaceholder.typicode.com/";
 
   public static PhotoAlbumService create() {
     Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL)
