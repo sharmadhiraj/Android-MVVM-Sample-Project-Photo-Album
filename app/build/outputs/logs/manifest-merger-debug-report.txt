@@ -1,0 +1,190 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+MERGED from [com.android.databinding:adapters:3.4.2] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/c209bec57ac679318845cf7ae587d5c4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.4.2] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/62e912eed8b3471b9c90d6b069226751/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/7c2e41ba58e30c35a0227aa55e76ae7b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/443ec374ea5ed9529d9629c87a7345a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a96626dd4d55a9386b93f7d740f3c7d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/3d4e829b90fa41be426567493c4072a1/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.0.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/4706782a545bffcf4a760e1d6bfbcbe6/AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50c38fd9309d7dc3c10ea2173a6d6da8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/3c27e3dfa48e704d3d09ea929f4c3e41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/521e20e2e67c836377779411b96655c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/38c95477b563df9cfc3ba2976e323f3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/ac98c8b2cba30a24f13f6ae9da4c433b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/134cd9684cf042e472ca80324de71c81/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d84802e07b0d0ef7fd3bce0c2d8933f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d52cb39402f1ab5919f94e4275e06b4b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/154ea32feaf99426e40a4a391951c2a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/547975ad1916eb54f67a47833132feeb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/193e46e62fa20435375c9f922cc05892/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/31a7d26ac95649269a87e65900c84daa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/2ea1100b43b27beeaf4cb90e8b519470/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/8d81aa0b2a6be4d9dc498dce3902d9f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1857200d1c7b05a94e3f6819175a4033/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d2b8d8b100601874f160849d9784d222/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50a1a500c8723a1bfda63ec7c252ae88/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a7756d47198d039623b9fdcbb73352a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/db37255c346ff576be4ea37c4446b16d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1e62f9295b495a3b81cc0466469d28a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/fa4ebab6766f4df46decdabbfece28f1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/264865256144a1e7a326718898d38d32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/07b1ddec17a1d7bda0f437583a5c6510/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a26140188c9bf27c513df69b9e75e773/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/79df17cbb15d299c8f86902dff3f1bf8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1d4708cf4ff3688a8dbf4a648fad8456/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+	package
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:2:5-43
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:1-31:12
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:6:5-29:19
+MERGED from [com.android.support:design:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/7c2e41ba58e30c35a0227aa55e76ae7b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/7c2e41ba58e30c35a0227aa55e76ae7b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1857200d1c7b05a94e3f6819175a4033/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1857200d1c7b05a94e3f6819175a4033/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50a1a500c8723a1bfda63ec7c252ae88/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50a1a500c8723a1bfda63ec7c252ae88/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1857200d1c7b05a94e3f6819175a4033/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:7:9-50
+activity#com.smartmobe.photoalbummvvm.view.activity.HomeActivity
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:label
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:16:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.smartmobe.photoalbummvvm.view.activity.PhotoDetailActivity
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:24:9-70
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:24:19-68
+activity#com.smartmobe.photoalbummvvm.view.activity.CommentActivity
+ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:26:9-27:39
+	android:label
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml:26:19-64
+uses-sdk
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.4.2] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/c209bec57ac679318845cf7ae587d5c4/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.4.2] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/c209bec57ac679318845cf7ae587d5c4/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.4.2] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/62e912eed8b3471b9c90d6b069226751/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.4.2] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/62e912eed8b3471b9c90d6b069226751/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/7c2e41ba58e30c35a0227aa55e76ae7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/7c2e41ba58e30c35a0227aa55e76ae7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/443ec374ea5ed9529d9629c87a7345a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/443ec374ea5ed9529d9629c87a7345a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a96626dd4d55a9386b93f7d740f3c7d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a96626dd4d55a9386b93f7d740f3c7d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/3d4e829b90fa41be426567493c4072a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/3d4e829b90fa41be426567493c4072a1/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.0.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/4706782a545bffcf4a760e1d6bfbcbe6/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.0.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/4706782a545bffcf4a760e1d6bfbcbe6/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50c38fd9309d7dc3c10ea2173a6d6da8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50c38fd9309d7dc3c10ea2173a6d6da8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/3c27e3dfa48e704d3d09ea929f4c3e41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/3c27e3dfa48e704d3d09ea929f4c3e41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/521e20e2e67c836377779411b96655c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/521e20e2e67c836377779411b96655c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/38c95477b563df9cfc3ba2976e323f3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/38c95477b563df9cfc3ba2976e323f3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/ac98c8b2cba30a24f13f6ae9da4c433b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/ac98c8b2cba30a24f13f6ae9da4c433b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/134cd9684cf042e472ca80324de71c81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/134cd9684cf042e472ca80324de71c81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d84802e07b0d0ef7fd3bce0c2d8933f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d84802e07b0d0ef7fd3bce0c2d8933f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d52cb39402f1ab5919f94e4275e06b4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d52cb39402f1ab5919f94e4275e06b4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/154ea32feaf99426e40a4a391951c2a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/154ea32feaf99426e40a4a391951c2a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/547975ad1916eb54f67a47833132feeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/547975ad1916eb54f67a47833132feeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/193e46e62fa20435375c9f922cc05892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/193e46e62fa20435375c9f922cc05892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/31a7d26ac95649269a87e65900c84daa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/31a7d26ac95649269a87e65900c84daa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/2ea1100b43b27beeaf4cb90e8b519470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/2ea1100b43b27beeaf4cb90e8b519470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/8d81aa0b2a6be4d9dc498dce3902d9f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/8d81aa0b2a6be4d9dc498dce3902d9f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1857200d1c7b05a94e3f6819175a4033/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1857200d1c7b05a94e3f6819175a4033/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d2b8d8b100601874f160849d9784d222/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/d2b8d8b100601874f160849d9784d222/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50a1a500c8723a1bfda63ec7c252ae88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/50a1a500c8723a1bfda63ec7c252ae88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a7756d47198d039623b9fdcbb73352a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a7756d47198d039623b9fdcbb73352a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/db37255c346ff576be4ea37c4446b16d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/db37255c346ff576be4ea37c4446b16d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1e62f9295b495a3b81cc0466469d28a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1e62f9295b495a3b81cc0466469d28a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/fa4ebab6766f4df46decdabbfece28f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/fa4ebab6766f4df46decdabbfece28f1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/264865256144a1e7a326718898d38d32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/264865256144a1e7a326718898d38d32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/07b1ddec17a1d7bda0f437583a5c6510/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/07b1ddec17a1d7bda0f437583a5c6510/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a26140188c9bf27c513df69b9e75e773/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/a26140188c9bf27c513df69b9e75e773/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/79df17cbb15d299c8f86902dff3f1bf8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/79df17cbb15d299c8f86902dff3f1bf8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1d4708cf4ff3688a8dbf4a648fad8456/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/dhirajsharma/.gradle/caches/transforms-2/files-2.1/1d4708cf4ff3688a8dbf4a648fad8456/AndroidManifest.xml:20:5-44
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		ADDED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dhirajsharma/Drive/Arson/Projects/Android/Android-MVVM-Sample-Project-Photo-Album/app/src/main/AndroidManifest.xml
