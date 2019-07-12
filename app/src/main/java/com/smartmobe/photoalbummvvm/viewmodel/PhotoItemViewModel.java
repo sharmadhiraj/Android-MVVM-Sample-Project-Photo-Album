@@ -26,7 +26,7 @@ public class PhotoItemViewModel extends BaseObservable {
 
     @BindingAdapter({"image"})
     public static void loadImage(ImageView view, String url) {
-        Glide.with(view.getContext()).load(url).centerCrop().into(view);
+        Glide.with(view.getContext()).load(url).into(view);
     }
 
     public void setPhoto(Photo photo) {
@@ -34,7 +34,7 @@ public class PhotoItemViewModel extends BaseObservable {
         notifyChange();
     }
 
-    public String getImageUrl(){
+    public String getImageUrl() {
         return photo.getThumbnailUrl();
     }
 
@@ -43,7 +43,7 @@ public class PhotoItemViewModel extends BaseObservable {
     }
 
 
-    public void onItemClick(View view){
+    public void onItemClick(View view) {
         context.startActivity(PhotoDetailActivity.launchDetail(view.getContext(), photo));
     }
 

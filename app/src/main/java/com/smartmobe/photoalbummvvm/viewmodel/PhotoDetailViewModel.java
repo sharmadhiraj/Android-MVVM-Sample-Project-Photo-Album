@@ -28,6 +28,6 @@ public class PhotoDetailViewModel {
 
     @BindingAdapter({"image"})
     public static void loadImage(ImageView view, String url) {
-        Glide.with(view.getContext()).load(url).centerCrop().into(view);
+        Glide.with(view.getContext()).load(url).into(view);
     }
 }
