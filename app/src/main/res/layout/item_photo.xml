@@ -6,16 +6,16 @@
 
         <variable
             name="photoItemViewModel"
-            type="com.smartmobe.photoalbummvvm.viewmodel.PhotoItemViewModel" />
+            type="com.sharmadhiraj.photoalbummvvm.viewmodel.PhotoItemViewModel" />
     </data>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/item_photo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
         android:onClick="@{photoItemViewModel::onItemClick}"
         app:cardBackgroundColor="#EEE"
         app:cardCornerRadius="3dp"
@@ -50,6 +50,6 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </layout>

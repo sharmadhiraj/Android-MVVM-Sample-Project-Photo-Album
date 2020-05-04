@@ -1,16 +1,17 @@
-package com.smartmobe.photoalbummvvm.view.activity;
+package com.sharmadhiraj.photoalbummvvm.view.activity;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 
-import com.smartmobe.photoalbummvvm.R;
-import com.smartmobe.photoalbummvvm.databinding.HomeBinding;
-import com.smartmobe.photoalbummvvm.view.adapter.PhotoAdapter;
-import com.smartmobe.photoalbummvvm.viewmodel.PhotoViewModel;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.sharmadhiraj.photoalbummvvm.R;
+import com.sharmadhiraj.photoalbummvvm.databinding.HomeBinding;
+import com.sharmadhiraj.photoalbummvvm.view.adapter.PhotoListAdapter;
+import com.sharmadhiraj.photoalbummvvm.viewmodel.PhotoViewModel;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -40,25 +41,26 @@ public class HomeActivity extends AppCompatActivity implements Observer {
     }
 
     private void createPhotoList(RecyclerView photoList) {
-        PhotoAdapter adapter = new PhotoAdapter();
+        PhotoListAdapter adapter = new PhotoListAdapter();
         photoList.setAdapter(adapter);
         photoList.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    private void setUpObserver(Observable observable){
+    private void setUpObserver(Observable observable) {
         observable.addObserver(this);
     }
 
     @Override
     public void update(Observable observable, Object data) {
         if (observable instanceof PhotoViewModel) {
-            PhotoAdapter peopleAdapter = (PhotoAdapter) homeBinding.listPhoto.getAdapter();
+            PhotoListAdapter peopleAdapter = (PhotoListAdapter) homeBinding.listPhoto.getAdapter();
             PhotoViewModel photoViewModel = (PhotoViewModel) observable;
             peopleAdapter.setPhotos(photoViewModel.getPhotos());
         }
     }
 
-    @Override protected void onDestroy() {
+    @Override
+    protected void onDestroy() {
         super.onDestroy();
         photoViewModel.reset();
     }

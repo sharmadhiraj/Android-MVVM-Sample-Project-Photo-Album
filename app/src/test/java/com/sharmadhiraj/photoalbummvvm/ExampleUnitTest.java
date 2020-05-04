@@ -1,4 +1,4 @@
-package com.smartmobe.photoalbummvvm;
+package com.sharmadhiraj.photoalbummvvm;
 
 import org.junit.Test;
 

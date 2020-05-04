@@ -1,7 +1,6 @@
-package com.smartmobe.photoalbummvvm.model;
+package com.sharmadhiraj.photoalbummvvm.model;
 
 import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
@@ -11,25 +10,14 @@ import java.io.Serializable;
 
 public class Photo implements Serializable {
 
-    @SerializedName("albumId")
-    @Expose
-    private Integer albumId;
-    @SerializedName("id")
-    @Expose
-    private Integer id;
-    @SerializedName("title")
     @Expose
     private String title;
-    @SerializedName("url")
     @Expose
     private String url;
-    @SerializedName("thumbnailUrl")
     @Expose
     private String thumbnailUrl;
 
-    public Photo(Integer albumId, Integer id, String title, String url, String thumbnailUrl) {
-        this.albumId = albumId;
-        this.id = id;
+    public Photo(String title, String url, String thumbnailUrl) {
         this.title = title;
         this.url = url;
         this.thumbnailUrl = thumbnailUrl;
@@ -46,5 +34,4 @@ public class Photo implements Serializable {
     public String getThumbnailUrl() {
         return thumbnailUrl;
     }
-
 }

@@ -1,10 +1,10 @@
-package com.smartmobe.photoalbummvvm.app;
+package com.sharmadhiraj.photoalbummvvm.app;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.smartmobe.photoalbummvvm.data.PhotoAlbumFactory;
-import com.smartmobe.photoalbummvvm.data.PhotoAlbumService;
+import com.sharmadhiraj.photoalbummvvm.data.PhotoAlbumFactory;
+import com.sharmadhiraj.photoalbummvvm.data.PhotoAlbumService;
 
 import rx.Scheduler;
 import rx.schedulers.Schedulers;
@@ -35,5 +35,4 @@ public class PhotoAlbumApplication extends Application {
         if (scheduler == null) scheduler = Schedulers.io();
         return scheduler;
     }
-//added to test git commit updated again
 }

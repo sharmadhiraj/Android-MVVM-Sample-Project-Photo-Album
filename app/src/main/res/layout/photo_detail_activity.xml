@@ -6,7 +6,7 @@
 
         <variable
             name="photoDetailViewModel"
-            type="com.smartmobe.photoalbummvvm.viewmodel.PhotoDetailViewModel" />
+            type="com.sharmadhiraj.photoalbummvvm.viewmodel.PhotoDetailViewModel" />
     </data>
 
     <RelativeLayout

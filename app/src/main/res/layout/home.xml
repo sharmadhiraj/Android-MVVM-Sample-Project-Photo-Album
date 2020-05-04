@@ -2,12 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    
+
     <data>
+
         <variable
             name="photoViewModel"
-            type="com.smartmobe.photoalbummvvm.viewmodel.PhotoViewModel"/>
-        
+            type="com.sharmadhiraj.photoalbummvvm.viewmodel.PhotoViewModel" />
+
     </data>
 
     <RelativeLayout
@@ -18,29 +19,29 @@
 
 
         <ProgressBar
-            android:layout_centerInParent="true"
-            android:layout_gravity="center_horizontal"
             android:id="@+id/progress_photo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:visibility="@{photoViewModel.photoProgress}"/>
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            app:visibility="@{photoViewModel.photoProgress}" />
 
         <TextView
-            android:layout_centerHorizontal="true"
             android:id="@+id/label_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/progress_photo"
-            android:text="@{photoViewModel.messageLabel}"/>
+            android:layout_centerHorizontal="true"
+            android:text="@{photoViewModel.messageLabel}" />
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/listPhoto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbars="vertical"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            tools:listitem="@layout/item_photo"/>
+            tools:listitem="@layout/item_photo" />
 
 
     </RelativeLayout>

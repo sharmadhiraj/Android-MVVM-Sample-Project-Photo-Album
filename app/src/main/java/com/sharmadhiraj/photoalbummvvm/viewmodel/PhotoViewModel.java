@@ -1,14 +1,15 @@
-package com.smartmobe.photoalbummvvm.viewmodel;
+package com.sharmadhiraj.photoalbummvvm.viewmodel;
 
 import android.content.Context;
-import android.databinding.ObservableField;
-import android.databinding.ObservableInt;
 import android.view.View;
 
-import com.smartmobe.photoalbummvvm.R;
-import com.smartmobe.photoalbummvvm.app.PhotoAlbumApplication;
-import com.smartmobe.photoalbummvvm.data.PhotoAlbumService;
-import com.smartmobe.photoalbummvvm.model.Photo;
+import androidx.databinding.ObservableField;
+import androidx.databinding.ObservableInt;
+
+import com.sharmadhiraj.photoalbummvvm.R;
+import com.sharmadhiraj.photoalbummvvm.app.PhotoAlbumApplication;
+import com.sharmadhiraj.photoalbummvvm.data.PhotoAlbumService;
+import com.sharmadhiraj.photoalbummvvm.model.Photo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,8 +27,8 @@ public class PhotoViewModel extends Observable {
 
     public ObservableInt photoProgress;
     public ObservableField<String> messageLabel;
-    public ObservableInt photoList;
-    public ObservableInt photoLabel;
+    private ObservableInt photoList;
+    private ObservableInt photoLabel;
     private Context context;
     private List<Photo> photos;
     private Subscription subscription;

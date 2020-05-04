@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.smartmobe.photoalbummvvm">
+    package="com.sharmadhiraj.photoalbummvvm">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -24,10 +24,6 @@
         </activity>
 
         <activity android:name=".view.activity.PhotoDetailActivity" />
-
-        <activity
-            android:name=".view.activity.CommentActivity"
-            android:label="Comments" />
 
     </application>
 

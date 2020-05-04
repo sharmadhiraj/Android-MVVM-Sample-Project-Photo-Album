@@ -1,14 +1,15 @@
-package com.smartmobe.photoalbummvvm.viewmodel;
+package com.sharmadhiraj.photoalbummvvm.viewmodel;
 
 import android.content.Context;
-import android.databinding.BaseObservable;
-import android.databinding.BindingAdapter;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.databinding.BaseObservable;
+import androidx.databinding.BindingAdapter;
+
 import com.bumptech.glide.Glide;
-import com.smartmobe.photoalbummvvm.model.Photo;
-import com.smartmobe.photoalbummvvm.view.activity.PhotoDetailActivity;
+import com.sharmadhiraj.photoalbummvvm.model.Photo;
+import com.sharmadhiraj.photoalbummvvm.view.activity.PhotoDetailActivity;
 
 /**
  * Created by Dhiraj Sharma on April 05, 2017

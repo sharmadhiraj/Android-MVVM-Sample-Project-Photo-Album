@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">Photo Album MVVM</string>
-
     <string name="error_loading">Error while loading photos !</string>
-
-    <string name="comment">Comment</string>
 </resources>
