@@ -11,11 +11,11 @@ import java.io.Serializable;
 public class Photo implements Serializable {
 
     @Expose
-    private String title;
+    private final String title;
     @Expose
-    private String url;
+    private final String url;
     @Expose
-    private String thumbnailUrl;
+    private final String thumbnailUrl;
 
     public Photo(String title, String url, String thumbnailUrl) {
         this.title = title;

@@ -7,7 +7,7 @@ import com.sharmadhiraj.photoalbummvvm.model.Photo;
 import com.sharmadhiraj.photoalbummvvm.viewmodel.PhotoItemViewModel;
 
 class PhotoViewHolder extends RecyclerView.ViewHolder {
-    private ItemPhotoBinding itemPhotoBinding;
+    private final ItemPhotoBinding itemPhotoBinding;
 
     PhotoViewHolder(ItemPhotoBinding itemPhotoBinding) {
         super(itemPhotoBinding.itemPhoto);

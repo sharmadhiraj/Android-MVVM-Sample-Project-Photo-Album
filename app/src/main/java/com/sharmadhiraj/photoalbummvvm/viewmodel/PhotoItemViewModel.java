@@ -7,9 +7,9 @@ import android.widget.ImageView;
 import androidx.databinding.BaseObservable;
 import androidx.databinding.BindingAdapter;
 
-import com.bumptech.glide.Glide;
 import com.sharmadhiraj.photoalbummvvm.model.Photo;
 import com.sharmadhiraj.photoalbummvvm.view.activity.PhotoDetailActivity;
+import com.squareup.picasso.Picasso;
 
 /**
  * Created by Dhiraj Sharma on April 05, 2017
@@ -18,7 +18,7 @@ import com.sharmadhiraj.photoalbummvvm.view.activity.PhotoDetailActivity;
 public class PhotoItemViewModel extends BaseObservable {
 
     private Photo photo;
-    private Context context;
+    private final Context context;
 
     public PhotoItemViewModel(Photo photo, Context context) {
         this.photo = photo;
@@ -27,7 +27,7 @@ public class PhotoItemViewModel extends BaseObservable {
 
     @BindingAdapter({"image"})
     public static void loadImage(ImageView view, String url) {
-        Glide.with(view.getContext()).load(url).into(view);
+        Picasso.get().load(url).into(view);
     }
 
     public void setPhoto(Photo photo) {

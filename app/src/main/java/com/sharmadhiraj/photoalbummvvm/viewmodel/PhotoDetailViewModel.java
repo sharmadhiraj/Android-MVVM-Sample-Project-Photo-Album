@@ -4,8 +4,8 @@ import android.widget.ImageView;
 
 import androidx.databinding.BindingAdapter;
 
-import com.bumptech.glide.Glide;
 import com.sharmadhiraj.photoalbummvvm.model.Photo;
+import com.squareup.picasso.Picasso;
 
 /**
  * Created by Dhiraj Sharma on April 05, 2017
@@ -13,7 +13,7 @@ import com.sharmadhiraj.photoalbummvvm.model.Photo;
 
 public class PhotoDetailViewModel {
 
-    private Photo photo;
+    private final Photo photo;
 
     public PhotoDetailViewModel(Photo photo) {
         this.photo = photo;
@@ -21,7 +21,7 @@ public class PhotoDetailViewModel {
 
     @BindingAdapter({"image"})
     public static void loadImage(ImageView view, String url) {
-        Glide.with(view.getContext()).load(url).into(view);
+        Picasso.get().load(url).into(view);
     }
 
     public String getTitle() {

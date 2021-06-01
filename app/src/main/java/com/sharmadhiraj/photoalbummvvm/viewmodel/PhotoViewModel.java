@@ -27,10 +27,10 @@ public class PhotoViewModel extends Observable {
 
     public ObservableInt photoProgress;
     public ObservableField<String> messageLabel;
-    private ObservableInt photoList;
-    private ObservableInt photoLabel;
+    private final ObservableInt photoList;
+    private final ObservableInt photoLabel;
     private Context context;
-    private List<Photo> photos;
+    private final List<Photo> photos;
     private Subscription subscription;
 
     public PhotoViewModel(Context context) {
