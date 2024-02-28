@@ -25,12 +25,12 @@ import rx.functions.Action1;
 
 public class PhotoViewModel extends Observable {
 
-    public ObservableInt photoProgress;
-    public ObservableField<String> messageLabel;
     private final ObservableInt photoList;
     private final ObservableInt photoLabel;
-    private Context context;
     private final List<Photo> photos;
+    public ObservableInt photoProgress;
+    public ObservableField<String> messageLabel;
+    private Context context;
     private Subscription subscription;
 
     public PhotoViewModel(Context context) {

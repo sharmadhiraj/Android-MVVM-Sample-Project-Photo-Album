@@ -17,8 +17,8 @@ import com.squareup.picasso.Picasso;
 
 public class PhotoItemViewModel extends BaseObservable {
 
-    private Photo photo;
     private final Context context;
+    private Photo photo;
 
     public PhotoItemViewModel(Photo photo, Context context) {
         this.photo = photo;
