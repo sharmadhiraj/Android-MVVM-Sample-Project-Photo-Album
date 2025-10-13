@@ -19,6 +19,7 @@ android {
     dataBinding {
         enabled = true
     }
+    namespace 'com.sharmadhiraj.photoalbummvvm'
 }
 
 dependencies {
