@@ -29,7 +29,8 @@
             android:layout_weight="1"
             android:contentDescription="@{viewModel.photo.author}"
             android:scaleType="fitCenter"
-            app:imageUrl="@{viewModel.photo.imageUrl}" />
+            app:imageUrl="@{viewModel.photo.imageUrl}"
+            app:placeholderUrl="@{viewModel.photo.thumbnailUrl}" />
 
         <LinearLayout
             android:layout_width="match_parent"

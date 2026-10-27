@@ -20,14 +20,14 @@ object ImageLoader {
     private val background = Executors.newFixedThreadPool(4)
     private val mainThread = Handler(Looper.getMainLooper())
 
-    fun load(view: ImageView, url: String?) {
+    fun load(view: ImageView, url: String?, placeholderUrl: String? = null) {
         view.tag = url
         val cached = url?.let(cache::get)
         if (cached != null) {
             view.setImageBitmap(cached)
             return
         }
-        view.setImageDrawable(null)
+        view.setImageBitmap(placeholderUrl?.let(cache::get))
         if (url == null) return
         background.execute {
             val bytes = runCatching { PicsumApi.fetchBytes(url) }.getOrNull() ?: return@execute
