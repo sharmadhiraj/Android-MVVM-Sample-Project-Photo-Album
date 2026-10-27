@@ -14,7 +14,7 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
         <activity
-            android:name=".view.activity.HomeActivity"
+            android:name=".view.PhotoListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".view.activity.PhotoDetailActivity" />
+        <activity android:name=".view.PhotoDetailActivity" />
 
     </application>
 

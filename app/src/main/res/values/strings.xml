@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Photo Album MVVM</string>
-    <string name="error_loading">Error while loading photos !</string>
+    <string name="search_author">Search by author</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorite">Favorite</string>
+    <string name="back">Back</string>
+    <string name="error_loading">Could not load photos</string>
+    <string name="retry">Retry</string>
+    <string name="empty">No photos found</string>
 </resources>
