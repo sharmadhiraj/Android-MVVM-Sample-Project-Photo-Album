@@ -11,4 +11,5 @@ data class Photo(
     val thumbnailUrl get() = "https://picsum.photos/id/$id/400/300"
     val imageUrl get() = "https://picsum.photos/id/$id/1080/810"
     val sizeLabel get() = "$width x $height"
+    val caption get() = "#$id · $sizeLabel"
 }

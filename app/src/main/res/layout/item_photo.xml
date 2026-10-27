@@ -41,14 +41,28 @@
                 android:paddingStart="12dp"
                 android:paddingEnd="0dp">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="@{item.photo.author}"
-                    android:textAppearance="?attr/textAppearanceTitleSmall" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@{item.photo.author}"
+                        android:textAppearance="?attr/textAppearanceTitleSmall" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@{item.photo.caption}"
+                        android:textAppearance="?attr/textAppearanceBodySmall" />
+                </LinearLayout>
 
                 <ImageButton
                     android:layout_width="48dp"
